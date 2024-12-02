@@ -39,7 +39,7 @@
 void main(void) {
     delay_ms(10);     // Additional PSU power up timing after 64ms CPU power up timer, PWRTS
     delay_x750ns(22); // Oscillator start up timing and I/O high impedance from reset
-                      // Tosc = 16us
+                      // Tost = 16us
     
     programInitialize(); // Initialize prorgram
     
